@@ -10,17 +10,17 @@ Cutting_DDv2.xlsx - key describing fields and values for other files
 
 CUTTING_DD_20160318.csv - demographic or group file
 
-	Note: Affstat states if an ID is a case or a control (1 or 2) and Case_type states what ICD9 code justifies the ID as a case
+Note: Affstat states if an ID is a case or a control (1 or 2) and Case_type states what ICD9 code justifies the ID as a case
 
 CUTTING_ICD9_20160318.csv - ICD9 codes for each ID/visit
 
 CUTTING_CONTROL_MATCHING_20160318.csv - matching file with cases (RUIDs) and their two matching control IDs
 
 1. Make Group and ICD-9 file:
-    A. From the raw data, select cases that have the following ICD-9 codes (can use Case_type to match):
-        299, 299.0, 299.00, 299.1, 299.01, 299.8, 299.9, 299.10, 299.11, 299.80, 299.81, 299.90, 299.91
-    B. Select matching controls for the case IDs based on CONTROL_MATCHING file.
-    C. Select rows from ICD9 file that match both case and control RUIDs.
+	A. From the raw data, select cases that have the following ICD-9 codes (can use Case_type to match):
+        	299, 299.0, 299.00, 299.1, 299.01, 299.8, 299.9, 299.10, 299.11, 299.80, 299.81, 299.90, 299.91
+	B. Select matching controls for the case IDs based on CONTROL_MATCHING file.
+	C. Select rows from ICD9 file that match both case and control RUIDs.
 2. Add Age related fields to files:
     A. AgeatICD to ICD9 file - is this the correct field name?
         i. Use ConvertAge tool? I am not sure which tool you were thinking for this.
