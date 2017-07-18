@@ -10,7 +10,7 @@ Cutting_DDv2.xlsx - key describing fields and values for other files
 
 CUTTING_DD_20160318.csv - demographic or group file
 
-Note: Affstat states if an ID is a case or a control (1 or 2) and Case_type states what ICD9 code justifies the ID as a case
+    - Note: Affstat states if an ID is a case or a control (1 or 2) and Case_type states what ICD9 code justifies the ID as a case
 
 CUTTING_ICD9_20160318.csv - ICD9 codes for each ID/visit
 
@@ -26,7 +26,7 @@ CUTTING_CONTROL_MATCHING_20160318.csv - matching file with cases (RUIDs) and the
         - Use ConvertAge tool? I am not sure which tool you were thinking for this.
     2. Add MaxAgeatICD and MinAgeatICD to Group file - are these the correct field names?
         - Use ConvertAge tool? I am not sure which tool you were thinking for this.
-4. Censor dataset
+4. Censor dataset:
     1. Remove any CASES that have the following ICD9 codes prior to age 2 (not including age 2 exactly):
         - 299, 299.0, 299.00, 299.1, 299.01, 299.8, 299.9, 299.10, 299.11, 299.80, 299.81, 299.90, 299.91
     2. Remove any CASES OR CONTROLS that have the following ICD9 codes at any age:
