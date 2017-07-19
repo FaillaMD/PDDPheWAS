@@ -1,0 +1,10 @@
+VARNAME,VARDESC,TYPE,COMMENT,VALUES,,,,,,
+RUID,Deidentified Subject's ID,integer,,,,,,,,
+SEX,Sex of participant,integer,,1=Male,2=Female,3=Unknown,,,,
+RACE,Race of participant,integer,,1=White,2=Black or Afican American,3=American Indian or Alaska Native,4=Asian/Pacific Islander,5=Hispanic,6=Other,7=Unknown
+DOB,Participant's date of Birth,date,,,,,,,,
+DOD,Participant's date of Death,date,,,,,,,,
+Death_status,Indication of death,integer,,1=dead,0= Not dead,,,,,
+AFF_STATUS,affection status,integer,per definition,0 = Case,1 = control 1,2 = control 2,,,,
+Zip,First three digits of zip code,integer,,,,,,,,
+Case_type,Qualifying ICD-9 code,,,,,,,,,
