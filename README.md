@@ -10,7 +10,7 @@ Cutting_DDv2.xlsx - key describing fields and values for other files
 
 CUTTING_DD_20160318.csv - demographic or group file
 
-    - Note: Affstat states if an ID is a case or a control (1 or 2) and Case_type states what ICD9 code justifies the ID as a case
+- Note: Affstat states if an ID is a case or a control (1 or 2) and Case_type states what ICD9 code justifies the ID as a case
 
 CUTTING_ICD9_20160318.csv - ICD9 codes for each ID/visit
 
