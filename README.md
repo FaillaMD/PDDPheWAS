@@ -16,6 +16,7 @@ CUTTING_ICD9_20160318.csv - ICD9 codes for each ID/visit
 
 CUTTING_CONTROL_MATCHING_20160318.csv - matching file with cases (RUIDs) and their two matching control IDs
 
+# Clean Dataset
 1. Make Group and ICD-9 file:
     1. From the raw data, select cases that have the following ICD-9 codes (can use Case_type to match): 
     	- 299, 299.0, 299.00, 299.1, 299.01, 299.8, 299.9, 299.10, 299.11, 299.80, 299.81, 299.90, 299.91
