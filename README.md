@@ -20,7 +20,9 @@ CUTTING_CONTROL_MATCHING_20160318.csv - matching file with cases (RUIDs) and the
 1. Make Group and ICD-9 file:
     1. From the raw data, select cases that have the following ICD-9 codes (can use Case_type to match): 
     	- 299, 299.0, 299.00, 299.1, 299.01, 299.8, 299.9, 299.10, 299.11, 299.80, 299.81, 299.90, 299.91
+        - Select rows from the group file where AFF_STATUS=0 for each case RUID. 
     2. Select matching controls for the case IDs based on CONTROL_MATCHING file.
+        - Select rows from the group file where AFF_STATUS=1 for Control1 RUIDs and AFF_STATUS=2 for Control2 RUIDs. 
     3. Select rows from ICD9 file that match both case and control RUIDs.
 2. Add Age related fields to files:
     1. AgeatICD to ICD9 file - is this the correct field name?
